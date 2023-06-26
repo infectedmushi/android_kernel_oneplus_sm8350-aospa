@@ -369,8 +369,8 @@ include scripts/subarch.include
 # Default value for CROSS_COMPILE is not to prefix executables
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 override ARCH		:= arm64
-override CROSS_COMPILE	:= /mnt/Bathtube/toolchains/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
-override CROSS_COMPILE_ARM32	:= /mnt/Bathtube/toolchains/gcc-linaro-12.2.1-2023.04-aarch64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
+override CROSS_COMPILE	:= /mnt/Bathtube/toolchains/gcc-linaro-14.0.0-2023.06-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
+override CROSS_COMPILE_ARM32	:= /mnt/Bathtube/toolchains/gcc-linaro-14.0.0-2023.06-aarch64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-
 override LLVM := 1
 override LLVM_IAS := 1
 override CLANG_TRIPLE := aarch64-linux-gnu
